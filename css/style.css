@@ -46,6 +46,28 @@ h6 {
     color: var(--white-color);
 }
 
+.nav {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.nav-list .list-item a {
+    text-decoration: none;
+    color: white;
+}
+
 .bg-navbar {
     background-image: url(/image/bg-navbar.png);
     background-repeat: inherit;
@@ -53,8 +75,7 @@ h6 {
 }
 
 .icon-download{
-    width: 2.5rem;
+    width: 3rem;
     position: absolute;
-    top: 1rem;
-    right: 5.5rem;
+    top: 1.5rem;
 }
